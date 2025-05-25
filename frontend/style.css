@@ -1,0 +1,23 @@
+h1 {
+    height: auto;
+    color: black; /* Change to any color you like */
+    text-align: center; /* Center the text horizontally */
+}
+body{
+   background-color:aquamarine;
+   padding-top: 60px; /* Adjust the value as needed */
+}
+
+h2 {
+    color: black; /* Change to any color you like */
+    text-align:center; /* Center the text horizontally */
+}
+.img-fluid {
+    max-width: 300%;
+    height: auto;
+}
+p{
+    color: black;
+    text-align: right;
+    font-style: italic;
+}
