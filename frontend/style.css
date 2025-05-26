@@ -1,23 +1,108 @@
-h1 {
-    height: auto;
-    color: black; /* Change to any color you like */
-    text-align: center; /* Center the text horizontally */
-}
-body{
-   background-color:aquamarine;
-   padding-top: 60px; /* Adjust the value as needed */
+/* General Page Styles */
+body {
+  background-color: #a6fdf2;
+  padding-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 
-h2 {
-    color: black; /* Change to any color you like */
-    text-align:center; /* Center the text horizontally */
+/* Headings */
+h1, h2 {
+  color: #000;
+  text-align: center;
 }
+
+/* Paragraphs */
+p {
+  color: #000;
+  text-align: justify;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Images */
 .img-fluid {
-    max-width: 300%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
-p{
-    color: black;
-    text-align: right;
-    font-style: italic;
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #eee;
+  padding: 30px 0;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-right: 10px;
+}
+
+footer .bi:hover {
+  color: #fff;
+}
+
+/* Back to Top Button */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#topBtn:hover {
+  background-color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+
+  footer .col-md-4 {
+    margin-bottom: 20px;
+  }
 }
